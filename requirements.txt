@@ -1,0 +1,15 @@
+# MIZ OKI 3.0™ Whitepaper Generator Requirements
+# Core dependencies
+python-docx>=0.8.11
+argparse
+pathlib
+typing
+dataclasses
+datetime
+json
+logging
+os
+
+# Optional dependencies for enhanced features
+Pillow>=9.0.0  # For image handling in Word documents
+lxml>=4.6.0    # For XML processing (used by python-docx)
